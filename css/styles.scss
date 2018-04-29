@@ -43,7 +43,7 @@ body{
 }
 
 .navbar-inverse {
-     background-color: $background-dark;
+    background-color: $background-dark;
 }
 .tab-content {
     border-left: 1px solid $lt-gray;
@@ -64,6 +64,25 @@ body{
         }
     }
 }
+
+.modal-header {
+    .modal-title{
+        color:floralwhite;
+    }
+    .close{
+        color:floralwhite;
+    }
+    background-color: $background-dark;
+}
+
+.modal-body {
+    background-color: $background-pale;
+}
+
+.modal-footer {
+    background-color: $background-light;
+}
+
 #carousel-button {
     right:0px;
     position: absolute;
